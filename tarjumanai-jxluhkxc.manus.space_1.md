@@ -1,7 +1,6 @@
 # Tarjuman AI - موقع العرض التقديمي
 
-**URL:** https://tarjumanai-jxluhkxc.manus.space
-
+https://majestic-kashata-e3f415.netlify.app
 ---
 
 T
