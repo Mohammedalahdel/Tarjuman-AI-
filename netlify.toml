@@ -1,0 +1,13 @@
+[build]
+  # مجلد النشر هو مجلد الجذر، حيث أن المشروع هو موقع ثابت بملف HTML واحد
+  publish = "/"
+  # لا توجد عملية بناء (Build command) لأن المشروع ثابت
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # إعدادات أمان اختيارية
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
